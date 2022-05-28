@@ -1,0 +1,227 @@
+#sercard1{
+    margin-left: 0%;
+    padding: 1ch 0ch;
+    width: 200%;
+  }
+
+  #sercard1:hover{
+  transition: all 0.12s ease-out;
+  top: -4px;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+}
+
+#Aboutheading{
+    margin-left: 9ch;
+    margin-top: 0%;
+    font-size: 130%;
+    position: relative;
+    top: 10%;
+    
+}
+
+#Aboutpic{
+  position: relative;
+  top: 13%;
+  background-image: url('./PIc/WhatsApp_Image_2022-04-07_at_22.11.50-removebg-preview\ \(1\).png');
+  border-radius:100%;
+  width: 60%;
+  border: 4px solid black;
+  margin-top: 5%;
+  margin-left: 10%;
+  height:40ch;
+}
+
+#AboutPara{
+  font-size: 150%;
+  margin-top: 5%;
+}
+
+#Aboutbtn{
+  font-size: 130%;
+  padding: 9px 25px;
+  border-radius: 20%;
+  color:white;
+  border-color: salmon;
+
+  /* "to left" / "to right" - affects initial color */
+
+background: linear-gradient(to left, salmon 50%, black 50%) right;
+background-size: 200%;
+transition: .5s ease-out;
+}
+
+#Aboutbtn:hover{
+  background-position: left;
+  border-color: black ;
+}
+
+#Portfolioheading{
+  text-align: center;
+  padding:4%;
+}
+
+/* #imgportfolio{
+  background-image: url("./PIc/544104416sst1650107731.png");
+  width: 300px;
+  height: 200px;
+} */
+
+#contacth2{
+  text-align:center;
+  padding-top: 9%;
+}
+
+#text1{
+  outline: 0;
+  border-width: 0 0 1px;
+  width:90%;
+  border-color: #dedcdc;
+  
+}
+#text1:focus {
+  border-color: black;
+}
+
+#text2{
+  outline: 0;
+  border-width: 0 0 1px;
+  width:84%;
+  margin-top: 4%;
+  margin-left: 6.3%;
+  border-color: #dedcdc;
+  
+}
+#text2:focus {
+  border-color: black;
+}
+
+#text3{
+  outline: 0;
+  border-width: 0 0 1px;
+  width:84%;
+  margin-top: 4%;
+  margin-left: 6.3%;
+  border-color: #dedcdc;
+  
+}
+#text3:focus {
+  border-color: black;
+}
+
+#Submitbtn{
+  font-size: 130%;
+  padding: 6px 6px;
+  border-radius: 20%;
+  color:white;
+  margin-left: 5%;
+  margin-top: 2%;
+  border-color: salmon;
+
+  /* "to left" / "to right" - affects initial color */
+
+background: linear-gradient(to left, salmon 50%, black 50%) right;
+background-size: 200%;
+transition: .5s ease-out;
+}
+
+#Submitbtn:hover{
+  background-position: left;
+  border-color: black ;
+}
+
+#BOX_CRF{
+  image-rendering: auto;
+}
+
+#logo{
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+#text_logo{
+  margin-top:1ch;
+  text-align: center;
+  color: gray;
+  padding-bottom: 4ch;
+}
+
+#href_text{
+  text-align: center;
+  color: black;
+}
+#href_text:hover{
+  color: blue;
+}
+
+
+#site-block {
+  position: relative;
+  transition: 0.5s;
+}
+
+
+#site-block:hover {
+  transform: scale(1.04);
+}
+
+#about_para{
+  font-size: 100%;
+  margin-left: 4%;
+  /* padding: 1%; */
+}
+
+#btn_Link{
+    border-radius: 100%;
+    background-color: white;
+    width: 5ch;
+    height: 5ch;
+    border-color: black;
+    transition: 0.5s;
+}
+#btn_Link:hover{
+  background-color: #fa8072;
+  transform: scale(1.04);
+}
+
+#proj_color{
+  height: 70ch;
+  background-color: #ebf2e8;
+}
+
+#Pheaing{
+  text-align: center;
+  position: relative;
+  top: 3ch;
+}
+
+#proj_img{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  /* width: 50%; */
+  width: 70%;
+}
+
+#projdet{
+  background-color: transparent;
+  font-size: 1em; 
+  border: none;
+}
+
+#btndiv{
+display: flex;  
+justify-content: center;  
+align-items: center;
+position: relative;
+top:2ch;
+background-color: white;
+}  
+
+#projdiv{
+  position: relative;
+  top: 12ch;
+  background-color: white;
+  padding: 10%;
+  border-radius: 1ch;
+}

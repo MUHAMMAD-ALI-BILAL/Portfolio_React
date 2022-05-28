@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);display: inli
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#stylecss{font-size : 120%;
+           margin-left : 30px;
+          color:black;
+        }
+
+#stylecss:hover{  
+  font-size : 120%;
+  margin-left : 30px;
+  color: #d2dec3;
+  }
+  
+          
+#ME{font-size : 150%;
+    margin-left : 30px;
+    color:black;
+    }
+
+#backcolor{
+    background-color: "#d2dec3";
+    width: 100;
+    height: 100;
+}
+
+#navbarstyle{
+  padding-top: 0.0rem;
+  background-color:#f5edcc;
+  height:70px;  
+  transition: background-color 0.4s ease-out 100ms
+}
+
+#navbarstyle:hover{
+  padding-top: 0.0rem;
+  background-color :white;
+  height:70px;
+}
+
+#navcheck{
+  height : 50px;
+  background-color: white;
+  top: 0%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index:100;
+}
+
+#heading{
+  padding-top: 8%;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+
+#portbtn{
+  margin-top: 1ch;
+  background-color:#6b6160;
+  color:white;
+  border-radius: 20%;
+  margin-left: 45%;
+  padding: 9px 25px;
+  font-size: 110%;
+  border-color: salmon;
+
+    /* "to left" / "to right" - affects initial color */
+
+  background: linear-gradient(to left, salmon 50%, black 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+
+#portbtn:hover{
+    background-position: left;
+    border-color: black ;
+}
+
+#padding{
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+
+#firstBg{
+  background-color: #f5edcc;
+  height: 62ch;
+  width: 100%;
+}
+
+#sertext1{
+  text-align: center;
+  padding: 8%;
+}
+
+#sercard{
+  margin-left: 0%;
+  padding: 1ch 0ch;
+  width: 200%;
+}
+
+
+#imagecard1{
+  background-image: url(/home/ali/Desktop/React/Portfolio/src/PIc/img1.png);
+  border-radius: 40%;
+  width:35px;
+  height: 3.7ch;
+}
+
+
+#imagecard2{
+  background-image: url(/home/ali/Desktop/React/Portfolio/src/PIc/img2.png);
+  border-radius: 40%;
+  width:35px;
+  height: 3.7ch;
+}
+
+#imagecard3{
+  background-image: url(/home/ali/Desktop/React/Portfolio/src/PIc/img3.png);
+  border-radius: 40%;
+  width:35px;
+  height: 3.7ch;
+}
+
+#imagecard4{
+  background-image: url(/home/ali/Desktop/React/Portfolio/src/PIc/img4.png);
+  border-radius: 40%;
+  width:35px;
+  height: 3.7ch;
+}
+
+#google_font{
+  font-family: 'Lora', serif;
+}
